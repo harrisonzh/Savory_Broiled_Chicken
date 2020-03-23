@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    
+img { width: 100%; 
+}
+    
+header {
+  margin-top: 2em;
+  background-color: #ffffff;
+  color: #41495C;
+  text-align: center;
+}
+body {
+  background: #ffffff;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+h1 {
+    font-size: 1.35em;
+}
+h2 {
+    font-size: 0.8em;
+}
+h3 {
+    font-size: 1em;
+}
+p {
+    font-size: 0.8em;
+}
+img{
+    width: 33%;
+}
+main {
+  display: grid;
+  grid-row-gap: 0em;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-gap: 0em;
+}
+footer > p {
+  font-size: 1em;
+}
+
+}
