@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     
-img { width: 100%; 
+img { width: 73%; 
 }
     
 header {
@@ -28,14 +28,11 @@ h3 {
 p {
     font-size: 0.8em;
 }
-img{
-    width: 33%;
-}
 main {
   display: grid;
   grid-row-gap: 0em;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 3fr;
   grid-gap: 0em;
 }
 footer > p {
