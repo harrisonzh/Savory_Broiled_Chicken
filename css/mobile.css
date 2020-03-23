@@ -35,7 +35,7 @@ main {
   display: grid;
   grid-row-gap: 0em;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 2fr 2fr;
   grid-gap: 0em;
 }
 footer > p {
