@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-  background: rgb(255,183,14);
+  background: #ffffff;
   color: #222222;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   margin: 0;
-  font-size: 16px;
 }
 
 header {
-  background-color: rgb(255,183,14);
+  background-color: #41495C;
   color: #ffffff;
   text-align: center;
 }
 
 header h1 {
-  margin-top: 1em;
+    margin-top: 0em;
 }
 h1 {
     font-size: 3em;
@@ -28,8 +27,9 @@ h3 {
     font-size: 1.45em;
 }
 p {
-  font-size: 1em;
+    font-size: 0.8em;
 }
+
 main {
   display: grid;
   grid-column-gap: 0.7em;
@@ -41,17 +41,29 @@ main {
   margin-right: 2em;
 }
 
+main > section:first-child {
+  text-align: center;
+}
+
+footer > p {
+  font-size: 1.2em;
+}
+
 section {
+  margin-top: 2em;
   margin-bottom: 1em;
 }
 
 footer {
-  grid-area: valid;
-  background-color: rgb(255,183,14);
   font-size: 1em;
   text-align: center;
 }
 
 footer a {
-  color: #fff;
+  color: #41495C;
+}
+
+footer a:hover{
+  color: #ffffff;
+  background-color: #41495C;
 }
